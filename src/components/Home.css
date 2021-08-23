@@ -1,0 +1,120 @@
+.tagline__svgs {
+    position: absolute;
+    width: 1032px;
+    height: 136px;
+    left: 244px;
+    top: 411px;
+    
+
+}
+
+.tagline__text {
+    position: absolute;
+width: 418px;
+height: 182px;
+left: 860px;
+top: 320px;
+}
+
+/* .dot__matrix {
+    position: absolute;
+width: 184px;
+height: 184px;
+left: 162px;
+top: 185px;
+
+}
+
+.red_circle {
+position: absolute;
+width: 100px;
+height: 100px;
+left: 182px;
+top: 205px;
+
+background: rgba(230, 43, 30, 0.75);
+} */
+
+.topleft__rect {
+    position: absolute;
+width: 184px;
+height: 184px;
+left: 162px;
+top: 185px;
+}
+
+.location__text {
+    position: absolute;
+    width: 487.92px;
+    height: 34.26px;
+    left: 275px;
+    top: 642px;
+}
+
+.date__text {
+    position: absolute;
+width: 128px;
+height: 29px;
+left: 275px;
+top: 684.26px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.12em;
+
+/* TED Black */
+
+color: #000000;
+}
+
+.dotMatrix_bottom {
+    position: absolute;
+width: 224px;
+height: 24px;
+left: 164px;
+top: 756px;
+}
+
+.semiCircle {
+
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1236px;
+top: 781px;
+
+background: #8D99AE;
+transform: rotate(180deg);
+
+}
+
+.Bottom_dotMatrix {
+    position: absolute;
+    width: 184px;
+    height: 100px;
+    left: 1054px;
+    top: 681px;   
+
+}
+
+.side_dotMatrix {
+position: absolute;
+width: 24px;
+height: 144px;
+left: 1254px;
+top: 634px;
+}
+
+.redDots {
+    position: absolute;
+width: 16px;
+height: 112px;
+left: 162px;
+top: 605px;
+
+}

@@ -1,0 +1,201 @@
+body{
+  background:  #FFFAFA;
+
+}
+
+.header {
+
+position: fixed;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+background: #FFFAFA;
+display: flex;
+/* transitions */
+transition-timing-function: ease-in;
+transition: all 0.5s;
+
+}
+
+
+.tedx__logo {
+
+position: absolute;
+width: 200px !important;
+height: 50px !important;
+left: 162px;
+top: 20px;
+display: flex;
+flex-direction: row;
+
+}
+
+.navbar{
+    height: 140px;
+    width: 1365px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+   
+
+
+}
+
+.navbar-container1{
+  height: 472px;
+  width: 1365px;
+ 
+    
+
+}
+
+#Group30 {
+
+   position: absolute;
+   width: 1032px;
+   height: 136px;
+   left: 244px;
+   top: 411px;
+   
+}
+
+#Tagline{
+
+  /* height: 182px;
+  width: 418px;
+  padding: top 146px;
+  margin-top: 255px ;
+  right: -40px;
+  padding-right: 20px; */
+
+  position: absolute;
+width: 418px;
+height: 182px;
+left: 860px;
+top: 320px;
+
+}
+
+.ham-icon {
+position: absolute;
+width: 42px;
+height: 30px;
+left: 1400px;
+top: 20px;
+}
+
+.ham-icon:hover {
+}
+
+/* Modal menu CSS */
+
+.modal-content {
+  height: 650px;
+}
+.Group17 {
+  position: absolute;
+  width: 42px;
+  height: 30px;
+  left: 90%;
+  top: 63px;
+}
+.Group8 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  left: 8vh;
+  top: 8vh;
+}
+
+.Rectangle59 {
+  position: absolute;
+  width: 15vw;
+  height: 5vh;
+  left: 8vh;
+  top: 35vh;
+}
+
+.Explore {
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  left: 13vh;
+  top: 35vh;
+}
+.content {
+  height: 80vh;
+}
+.Group16 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 302px;
+  top: 433px;
+}
+.X {
+  position: absolute;
+  width: 70px;
+  height: 135px;
+  left: 282px;
+  top: 380px;
+}
+.Line3 {
+  position: absolute;
+  left: 370px;
+  top: 10vh;
+  height: 500px;
+}
+.Line4 {
+  position: absolute;
+  left: 8vh;
+  width: 350px;
+  top: 500px;
+}
+.Line5 {
+  position: absolute;
+  left: 8vh;
+  width: 350px;
+  top: 520px;
+}
+.Ellipse201 {
+  position: absolute;
+  top: 550px;
+  left: 60px;
+}
+.Ellipse202 {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+}
+.Ellipse203 {
+  position: absolute;
+  top: 550px;
+  left: 140px;
+}
+.Ellipse204 {
+  position: absolute;
+  top: 550px;
+  left: 180px;
+}
+.list {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: left;
+  letter-spacing: 0.06em;
+  color: #000000;
+  position: absolute;
+  top: 100px;
+  left: 420px;
+}
+.ul {
+  list-style: none;
+}
+.li {
+  padding: 12px;
+}
+
+  

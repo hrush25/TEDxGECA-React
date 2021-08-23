@@ -1,0 +1,139 @@
+.footer {
+
+position: absolute;
+width: 100%;
+height: 863px;
+left: 0px;
+top: 1726px;
+
+/* TED Black */
+
+background: #000000;
+}
+
+.footer__title {
+
+position: absolute;
+width: 434px;
+height: 80px;
+left: 162px;
+top: 67px;
+
+}
+
+.footer__horiDots {
+position: absolute;
+width: 16px;
+height: 112px;
+left: 680px;
+top: 131px;
+
+/* transform: rotate(180deg); */
+}
+
+.footer__poster {
+position: absolute;
+width: 814px;
+height: 306px;
+left: 163px;
+top: 223px;
+
+background: url(knowledge_gif.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.footer__social {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+justify-content: space-between;
+
+position: absolute;
+width: 816px;
+height: 48px;   
+left: 162px;
+top: 577px;
+
+}
+
+.yt-icon, .insta-icon, .twit-icon, .fb-icon, .email-icon {
+    cursor: pointer;
+}
+
+.footer__logo {
+position: absolute;
+width: 271.05px;
+height: 60px;
+left: 162px;
+top: 686px;
+}
+
+.footer__designXX {
+
+    position: absolute;
+width: 258px;
+height: 169px;
+left: 1020px;
+top: 609px;
+
+}
+
+.footer__copyright {
+    position: absolute;
+width: 606px;
+height: 44px;
+left: 417px;
+top: 771px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+
+.footer__menu {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+    letter-spacing: 0.06em;
+    color: #fff;
+    position: absolute;
+
+    width: 194px;
+    height: 316px;
+    left: 1084px;
+    top: 223px;
+    
+
+}
+
+.ul {
+    list-style: none;
+}
+
+.foo-li {
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.06em;
+
+/* TED White */
+
+color: #FFFFFF;
+cursor: pointer;
+
+}
+

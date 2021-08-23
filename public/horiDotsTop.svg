@@ -1,0 +1,5 @@
+<svg width="112" height="16" viewBox="0 0 112 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="8" r="8" transform="rotate(90 8 8)" fill="#E62B1E"/>
+<circle cx="56" cy="8" r="8" transform="rotate(90 56 8)" fill="#E62B1E"/>
+<path d="M104 16C101.878 16 99.8434 15.1571 98.3431 13.6569C96.8429 12.1566 96 10.1217 96 8C96 5.87827 96.8429 3.84344 98.3431 2.34315C99.8434 0.842855 101.878 -1.22062e-07 104 -3.49691e-07L104 8L104 16Z" fill="#E62B1E"/>
+</svg>

@@ -1,0 +1,64 @@
+.container {
+  background-color: #e5e5e5;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+position: absolute;
+width: 150px;
+height: 29px;
+left: 162px;
+top: 911px;
+
+font-family: Gilroy;
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* heading black */
+
+color: #26252A;
+}
+
+.para {
+
+position: absolute;
+width: 662px;
+height: 168px;
+left: 616px;
+top: 911px;
+
+font-family: Helvetica Neue;
+text-align: justify;
+/* text black */
+
+color: #2A2A2A;
+
+}
+
+.btn {
+position: absolute;
+width: 160px;
+height: 42px;
+left: 616px;
+top: 1111px;
+background: #E62B1E;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* TED White */
+
+color: #FFFFFF;
+
+}
+
