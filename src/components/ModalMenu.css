@@ -1,0 +1,4 @@
+.header__modal {
+    position: flex;
+    z-index: 10000;
+}

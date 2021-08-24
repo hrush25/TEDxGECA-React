@@ -25,23 +25,33 @@ function Footer() {
             <div className="footer__social" >
                 
                 <div className="yt-icon">
+                <a href="https://www.youtube.com/channel/UCdIM4cz9eGAA7djeGymxm8g"> 
                 < img  id="yt" src="yt.svg" />
+                </a>
                 </div>
                 
                 <div className="insta-icon" >
+                <a href="https://instagram.com/tedxgeca?utm_medium=copy_link">
                 < img src="insta.svg" />
+                </a>
                 </div>
                 
                 <div className="fb-icon" >
+                <a href="https://www.facebook.com/TEDx-GECA-115779977389422">
                 < img src="fb.svg" />
+                </a>
                 </div>
                 
                 <div className="twit-icon"> 
+                <a href="https://mobile.twitter.com/TEDxGECA">
                 < img src="twitter.svg" />
+                </a>
                 </div>
 
                 <div className="email-icon">
-                < img src="email.svg" /> 
+                <a href="mailto:contactus@tedxgeca.com">
+                < img src="email.svg" />
+                </a> 
                 </div>
             </div>
         
@@ -61,18 +71,18 @@ function Footer() {
         </div>
         
         {/* Footer Menu */}
-        <div className="footer__menu">
+    <div className="footer__menu">
         <ul className="ul">
-        <li className="li">About</li>
-        <li className="li">Speakers</li>
-        <li className="li">Team</li>
-        <li className="li">Contact</li>
+        <li className="li li-about">About</li>
+        <li className="li li-speakers">Speakers</li>
+        <li className="li li-team">Team</li>
+        <li className="li li-contact">Contact</li>
       </ul>
     </div>
 
         {/* Footer Copyright */}
         <div className="footer__copyright" >
-            <p>
+            <p> 
             ©Copyright TEDxGECA 2021 all rights reserved.
 This independent TEDx event is operated under license from TED.
             </p>

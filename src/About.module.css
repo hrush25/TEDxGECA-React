@@ -1,5 +1,5 @@
 .container {
-  background-color: #e5e5e5;
+  background-color: #FFFAFA;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ top: 911px;
 
 font-family: Gilroy;
 font-style: normal;
-font-size: 24px;
+font-size: 25px !important; 
 line-height: 29px;
 /* identical to box height */
 
