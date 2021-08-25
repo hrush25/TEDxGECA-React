@@ -24,6 +24,16 @@ line-height: 29px;
 color: #26252A;
 }
 
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url(./fonts/Gilroy/Gilroy-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Gilroy'), url(./fonts/Helvetica/Helvetica.ttf) format('truetype');
+}
+
 .para {
 
 position: absolute;
@@ -45,7 +55,7 @@ position: absolute;
 width: 160px;
 height: 42px;
 left: 616px;
-top: 1111px;
+top: 1140px;
 background: #E62B1E;
 
 font-family: Gilroy;

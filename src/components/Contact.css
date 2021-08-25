@@ -1,0 +1,89 @@
+.contact {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 1rem;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.headerr {
+  position: absolute;
+  font-size: 3rem;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+  color: #26252a;
+
+  height: 1.8rem;
+  left: 10.1rem;
+  top: 15rem;
+  margin: 0rem 0em 0rem;
+  text-align: center;
+}
+
+.detail {
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+  color: #26252a;
+
+  height: 1.8rem;
+  left: 10.1rem;
+  top: 8rem;
+  margin: 10rem 0em 0rem;
+  text-align: left;
+}
+
+.footer__copyrightt {
+  position: absolute;
+  width: 100%;
+  height: 4rem;
+  left: 0px;
+  bottom: 0px;
+  top: 700px;
+
+  font-family: Gilroy-regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #fff;
+  background-color: #000;
+}
+
+.footer__sociall {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  left: auto;
+  top: 577px;
+
+  z-index: 2;
+}
+
+.yt-iconn,
+.insta-iconn,
+.twit-iconn,
+.fb-iconn,
+.email-iconn {
+  /* background-color: black; */
+  cursor: pointer;
+  margin: auto; 
+
+}
+
+.bottom_p {
+  padding-bottom: 15px;
+}

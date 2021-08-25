@@ -1,4 +1,24 @@
 .header__modal {
-    position: flex;
-    z-index: 10000;
+  position: flex;
+  z-index: 10000;
+}
+
+.btnn {
+  background-color: transparent;
+  border: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+  cursor: pointer;
+}
+
+.btnn:hover {
+  color: #e62b1e;
+  font-weight: bolder;
+  
 }

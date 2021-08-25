@@ -15,6 +15,7 @@ import Ellipse201 from "../svgs/Ellipse 201.svg";
 import Ellipse202 from "../svgs/Ellipse 202.svg";
 import Ellipse203 from "../svgs/Ellipse 203.svg";
 import Ellipse204 from "../svgs/Ellipse 204.svg";
+import { Link } from 'react-router-dom';
 
 function Header(props) {
   const [modalShow, setModalShow] = React.useState(false);
@@ -27,9 +28,11 @@ function Header(props) {
             <div className="header">
                    
                    {/* Logo */}
+                   <Link to="/">
                    <div className='tedx__logo'>              
                    <img src='tedx-logo.svg'></img>
                    </div>
+                   </Link>
 
                 {/* Hamberger icon */}
 
