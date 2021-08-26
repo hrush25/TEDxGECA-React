@@ -3,6 +3,20 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  align-content: center;
+
+}
+
+
+/* Embedding font faces */
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url(./fonts/Gilroy/Gilroy-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Gilroy'), url(./fonts/Helvetica/Helvetica.ttf) format('truetype');
 }
 
 .title {
@@ -10,7 +24,8 @@ position: absolute;
 width: 150px;
 height: 29px;
 left: 162px;
-top: 911px;
+top: 928px;
+text-align: justify;
 
 font-family: Gilroy;
 font-style: normal;
@@ -24,15 +39,7 @@ line-height: 29px;
 color: #26252A;
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy'), url(./fonts/Gilroy/Gilroy-Regular.otf) format('opentype');
-}
 
-@font-face {
-  font-family: 'Helvetica';
-  src: local('Gilroy'), url(./fonts/Helvetica/Helvetica.ttf) format('truetype');
-}
 
 .para {
 
