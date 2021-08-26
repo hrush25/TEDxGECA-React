@@ -1,7 +1,13 @@
 import React from 'react'
 import "./Home.css"
+import { useEffect } from 'react'
 
 function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div className="home">
             

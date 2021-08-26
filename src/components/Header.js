@@ -16,10 +16,17 @@ import Ellipse202 from "../svgs/Ellipse 202.svg";
 import Ellipse203 from "../svgs/Ellipse 203.svg";
 import Ellipse204 from "../svgs/Ellipse 204.svg";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react'
 
 function Header(props) {
   const [modalShow, setModalShow] = React.useState(false);
   //   const [fullscreen, setFullscreen] = useState(true);
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const handleShow = () => {
     // setFullscreen(true);
     setModalShow(true);

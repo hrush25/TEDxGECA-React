@@ -1,8 +1,14 @@
 import React from 'react';
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
+import { useEffect } from 'react'  
 
 function Footer() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div className="footer">
 

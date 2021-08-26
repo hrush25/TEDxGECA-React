@@ -2,8 +2,13 @@ import React from "react";
 import "./Header.css";
 import "./ModalMenu.css";
 import { NavLink } from "react-router-dom";
+import { useEffect } from 'react'
 
 function ModalMenu(props) {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="header__modal">
       <div className="list">

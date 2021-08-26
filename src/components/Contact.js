@@ -1,5 +1,6 @@
 import './Contact.css';
 import Header from "./Header";
+import { useEffect } from 'react'
 
 const Contact = () => {
     return (
@@ -54,7 +55,7 @@ s
                     ©Copyright TEDxGECA 2021 all rights reserved.
                     
                 </p>
-                <p>This independent TEDx event is operated under license from TED.</p>
+                <p className="bottom_p">This independent TEDx event is operated under license from TED.</p>
             </div>
 
         </div>

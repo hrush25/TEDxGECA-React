@@ -3,8 +3,13 @@ import { Row, Col } from "react-bootstrap";
 import Header from "./Header";
 import Footer from "../Footer";
 import "./AboutPage.css";
+import { useEffect } from 'react'
 
 function AboutUs(props) {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <Header />
